@@ -35,7 +35,7 @@ const Movie = (props) => {
 
   return (
     <div className="save-wrapper">
-      <div className="movie-card">
+      <MovieCard className="movie-card">
         <h2>{title}</h2>
         <div className="movie-director">
           Director: <em>{director}</em>
@@ -50,7 +50,7 @@ const Movie = (props) => {
             {star}
           </div>
         ))}
-      </div>
+      </MovieCard>
       <div className="save-button">Save</div>
     </div>
   );
